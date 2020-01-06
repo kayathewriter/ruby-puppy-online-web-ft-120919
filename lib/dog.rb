@@ -17,4 +17,5 @@ class Dog
   def self.print_all
     print @@all.to_s.split('@name="').join(',')
   end
+  element.name
 end
